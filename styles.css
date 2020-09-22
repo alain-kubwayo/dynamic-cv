@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.title{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.form-class{
+    max-width: 550px;
+    margin: 10px auto;
+    background-color: rgba(0,0,0,0.2);
+    padding: 50px 100px;
+    border-radius: 5px;
+}
+input, select, button{
+    background: transparent;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+}
+select{
+    width: 103%;
+}
+input, select{
+    border: 0;
+    border-bottom: 5px solid rgba(0,0,0,0.4);
+}
+::-webkit-input-placeholder{
+    color: #000;
+}
+::-moz-input-placeholder{
+    color: #000;
+}
+::-ms-input-placeholder{
+    color: #000;
+}
+
+button{
+    text-align: center;
+    width: 103%;
+    border: 5px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color:rgba(0,0,0,0.2);
+    color: #000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:hover{
+    background: rgba(0,0,0,0.7);
+    color: #ebeefa;
+    cursor: pointer;
+    border: 5px solid rgba(0,0,0,0.1);
+}
+  
+/* Static Content */
+.first-headings{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+hr{
+    margin: 0;
+    border: 2px solid #000;
+}
+.grid-container{
+    display: grid;
+    /* grid-template-columns:8fr 1fr; */
+    /* gap: 10px 20px; */
+    /* gap: 0 20px; */
+    grid-template-columns: 13fr 2fr;
+    column-gap: 50px;
+}
+/* Dynamic */
+#full-name{
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+.dynamic{
+    /* font-size: 9px; */
+    text-align: center;
+    line-height: 0.5;
+}
+h1.name-title{
+    text-transform: uppercase;
+}
+.my-div-error{
+    color: red
+}
